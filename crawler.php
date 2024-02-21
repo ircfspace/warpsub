@@ -8,7 +8,7 @@
     $warp .= "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=0\n";
     $warp .= "//support-url: https://t.me/ircfspace\n";
     $warp .= "//profile-web-page-url: https://ircf.space\n\n";
-    $warp .= "warp://auto#WarpInWarp ✔️&&detour=warp://auto#Warp 🇮🇷";
+    $warp .= "warp://auto#WarpInWarp ⭐️&&detour=warp://auto#Warp 🇮🇷";
 
     $i = 1;
     $pattern = '/^warp:\/\/.*$/';
@@ -17,7 +17,7 @@
             break;
         }
         if (preg_match($pattern, $val) && !str_contains($val, '&&detour=')) {
-            $warp .= "\n".str_replace(['🇮🇷', '🛡'], '', $val);
+            $warp .= "\n".str_replace(['🇮🇷', '🛡', '✔️', '⭐️', '✅'], '', $val);
             $i++;
         }
     }
