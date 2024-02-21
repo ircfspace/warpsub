@@ -17,7 +17,7 @@
             break;
         }
         if (preg_match($pattern, $val)) {
-            $warp .= "\n".$val;
+            $warp .= "\n".str_replace(['🇮🇷', '🛡'], '', $val);
         }
         $i++;
     }
