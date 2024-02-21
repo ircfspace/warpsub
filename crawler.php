@@ -5,9 +5,10 @@
 
     $warp = "//profile-title: base64:V0FSUCAoSVJDRik=\n";
     $warp .= "//profile-update-interval: 6\n";
+    $warp .= "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=0\n";
     $warp .= "//support-url: https://t.me/ircfspace\n";
     $warp .= "//profile-web-page-url: https://ircf.space\n\n";
-    $warp .= "warp://auto#WarpInWarp&&detour=warp://auto#Warp_IR";
+    $warp .= "warp://auto#WarpInWarp&&detour=warp://auto#Warp 🇮🇷";
 
     $i = 1;
     $pattern = '/^warp:\/\/.*$/';
