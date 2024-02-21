@@ -7,7 +7,7 @@
     $warp .= "//profile-update-interval: 6\n";
     $warp .= "//support-url: https://t.me/ircfspace\n";
     $warp .= "//profile-web-page-url: https://ircf.space\n\n";
-    $warp .= "warp://auto#WarpInWarp&&detour=warp://auto?ifp=10-20&ifps=40-100&ifpd=10-200#Warp_IR";
+    $warp .= "warp://auto#WarpInWarp&&detour=warp://auto#Warp_IR";
 
     $i = 1;
     $pattern = '/^warp:\/\/.*$/';
