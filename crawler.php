@@ -16,10 +16,10 @@
         if ( $i > 3) {
             break;
         }
-        if (preg_match($pattern, $val)) {
+        if (preg_match($pattern, $val) && !str_contains($val, '&&detour=')) {
             $warp .= "\n".str_replace(['🇮🇷', '🛡'], '', $val);
+            $i++;
         }
-        $i++;
     }
 
     file_put_contents("export/warp", $warp);
