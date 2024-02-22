@@ -1,6 +1,6 @@
 <?php
 
-    $getList = file_get_contents('https://raw.githubusercontent.com/ippscan/ippscanTEAM/main/warp?v1.'.time());
+    $getList = file_get_contents('https://raw.githubusercontent.com/ippscan/ippscanTEAM/main/Montervpn?v1.'.time());
     $strings = explode("\n", $getList);
 
     $warp = "//profile-title: base64:V0FSUCAoSVJDRik=\n";
